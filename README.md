@@ -1,26 +1,44 @@
-## Let's Start to Explore PHP Syntax
+# Let's Start to Explore PHP Syntax
 
-This section is for those who are starting to explore PHP syntax. We will cover the basics of PHP, including:
+This project is a collection of PHP files that explore various PHP syntax concepts. Each file demonstrates a different aspect of PHP, from basic syntax to advanced features like classes and enums. The goal of this project is to help you understand and practice PHP syntax.
 
-1. **Variables and Data Types**
-   - How to declare variables.
-   - Understanding different data types (string, integer, float, boolean, array, etc.).
+## PHP Files
 
-2. **Control Structures**
-   - Working with `if`, `else`, `while`, `for`, `foreach`, and `switch` statements.
+### 1. **`anon.php`** - Anonymous Functions in PHP
+Learn how to create and use anonymous functions (also known as closures) in PHP.
 
-3. **Functions**
-   - Defining and using functions.
-   - Function parameters and return values.
+### 2. **`classes.php`** - Introduction to PHP Classes
+This file introduces the basic concepts of classes, objects, properties, and methods in PHP.
 
-4. **Arrays and Superglobals**
-   - Working with both indexed and associative arrays.
-   - Understanding PHP superglobals like `$_GET`, `$_POST`, `$_SESSION`, etc.
+### 3. **`enum.php`** - PHP Enums (Introduced in PHP 8.1)
+A demonstration of how to use enums in PHP, which were introduced in PHP 8.1 for better handling of fixed sets of values.
 
-5. **OOP (Object-Oriented Programming)**
-   - Introduction to classes, objects, properties, methods, and inheritance.
+### 4. **`expressions.php`** - PHP Expressions
+Examples of various expressions in PHP, including mathematical and logical operations.
 
-You can practice and experiment with the code in this project to get a solid understanding of PHP syntax.
+### 5. **`foreach.php`** - Using the `foreach` Loop
+Exploring how to use the `foreach` loop to iterate over arrays and objects in PHP.
+
+### 6. **`function.php`** - Defining and Using Functions
+Learn how to define and use functions in PHP, including parameter passing and return values.
+
+### 7. **`if.php`** - Conditional Statements
+A basic demonstration of how to use `if`, `else`, and `elseif` in PHP to make decisions.
+
+### 8. **`match.php`** - PHP `match` Expression (Introduced in PHP 8.0)
+Learn how to use the `match` expression as a safer and more flexible alternative to `switch` in PHP.
+
+### 9. **`refs.php`** - PHP References
+Understand how references work in PHP, including passing variables by reference and modifying them.
+
+### 10. **`types.php`** - PHP Data Types
+Examples of different data types in PHP such as integers, floats, strings, arrays, and objects.
+
+### 11. **`variadic.php`** - Variadic Functions
+Learn how to define and use variadic functions, which allow you to pass a variable number of arguments to a function.
+
+### 12. **`while-loop.php`** - Using the `while` Loop
+An example of the `while` loop in PHP, demonstrating how to repeat actions based on conditions.
 
 ## Project Setup
 
@@ -31,4 +49,4 @@ To get started with this project, follow the steps below:
 To clone this project to your local machine, use the following command:
 
 ```bash
- https://github.com/socheatathai/php-crash-course.git
+git clone https://github.com/socheatathai/php-crash-course.git
